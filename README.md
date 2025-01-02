@@ -1,7 +1,7 @@
-# ExcelScheduler
+# ExcelManagementTools
 
 ## ŠT—v
-ExcelScheduler‚ÍAExcelã‚ÅƒXƒPƒWƒ…[ƒ‹ŠÇ—‚âi’»Šm”F‚ª‚Å‚«‚éƒ}ƒNƒƒc[ƒ‹‚Å‚·Bƒ^ƒXƒN‚Ìisó‹µ‚âH”ŒvŽZ‚ðŽ©“®‰»‚µAŒø—¦“I‚ÈƒXƒPƒWƒ…[ƒ‹ŠÇ—‚ðƒTƒ|[ƒg‚µ‚Ü‚·B
+ExcelManagementTools‚ÍAExcelã‚ÅƒXƒPƒWƒ…[ƒ‹ŠÇ—‚âi’»Šm”F‚ª‚Å‚«‚éƒ}ƒNƒƒc[ƒ‹‚Å‚·Bƒ^ƒXƒN‚Ìisó‹µ‚âH”ŒvŽZ‚ðŽ©“®‰»‚µAŒø—¦“I‚ÈƒXƒPƒWƒ…[ƒ‹ŠÇ—‚ðƒTƒ|[ƒg‚µ‚Ü‚·B
 
 ---
 
@@ -12,7 +12,7 @@ ExcelScheduler‚ÍAExcelã‚ÅƒXƒPƒWƒ…[ƒ‹ŠÇ—‚âi’»Šm”F‚ª‚Å‚«‚éƒ}ƒNƒƒc[ƒ‹‚Å‚·Bƒ
 
 ### 2. VBAƒR[ƒh‚ÌƒRƒs[
 1. ŠJ”­ƒ^ƒu‚ÌuVisual Basicv‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-2. u•W€ƒ‚ƒWƒ…[ƒ‹v‚ð’Ç‰Á‚µA‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÉŠÜ‚Ü‚ê‚é `ExcelScheduler` ‚ÌƒR[ƒh‚ðƒRƒs[•ƒy[ƒXƒg‚µ‚Ä‚­‚¾‚³‚¢B
+2. u•W€ƒ‚ƒWƒ…[ƒ‹v‚ð’Ç‰Á‚µA‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÉŠÜ‚Ü‚ê‚é `ExcelManagementTools` ‚ÌƒR[ƒh‚ðƒRƒs[•ƒy[ƒXƒg‚µ‚Ä‚­‚¾‚³‚¢B
 3. •Û‘¶‚µ‚ÄƒGƒfƒBƒ^‚ð•Â‚¶‚Ü‚·B
 
 ---
@@ -89,3 +89,32 @@ ExcelScheduler‚ÍAExcelã‚ÅƒXƒPƒWƒ…[ƒ‹ŠÇ—‚âi’»Šm”F‚ª‚Å‚«‚éƒ}ƒNƒƒc[ƒ‹‚Å‚·Bƒ
 
 ## ‚¨–â‚¢‡‚í‚¹
 •s–¾“_‚â•s‹ï‡‚ª‚²‚´‚¢‚Ü‚µ‚½‚çAGitHub‚ÌIssueƒZƒNƒVƒ‡ƒ“‚©‚ç‚¨–â‚¢‡‚í‚¹‚­‚¾‚³‚¢B
+
+---
+
+## ƒ^ƒXƒNŠÇ—ƒ}ƒNƒ
+
+### ŠT—v
+ƒ^ƒXƒNŠÇ—ƒ}ƒNƒ‚ÍAExcel‚Åƒ^ƒXƒN‚ðŒø—¦“I‚ÉŠÇ—‚·‚é‚½‚ß‚Ìƒc[ƒ‹‚Å‚·Bƒ^ƒXƒNî•ñ‚ð•\Œ`Ž®‚Å®—‚µAi’»‚â—Dæ“x‚ðŠÈ’P‚É”cˆ¬‚Å‚«‚Ü‚·B
+
+### ‹@”\ˆê——
+| €–Ú       | Ú×                                                         |
+|------------|--------------------------------------------------------------|
+| **ƒ^ƒXƒNID** | Ž©“®˜A”Ô‚Åƒ^ƒXƒN‚ðˆêˆÓ‚ÉŽ¯•ÊB                                |
+| **ƒJƒeƒSƒŠ** | ƒ^ƒXƒN‚ÌƒJƒeƒSƒŠ‚ð•ª—ÞB                                      |
+| **—Dæ“x**   | “ü—Í‹K‘¥i’áA’†A‚AÅ‚j‚ÅÝ’è‰Â”\B                      |
+| **ƒXƒe[ƒ^ƒX**| –¢’…ŽèAŽdŠ|’†AŠm”F’†AŠ®—¹‚Ì’†‚©‚ç‘I‘ð‰Â”\B                |
+| **Šú“ú**     | ƒ^ƒXƒN‚Ì’÷Ø“ú‚ð“ü—ÍiYYYY/MM/DDŒ`Ž®jB                       |
+| **ŠJŽn“ú**   | ƒ^ƒXƒN‚ÌŠJŽn“ú‚ð“ü—ÍiYYYY/MM/DDŒ`Ž®jB                       |
+| **i’»—¦**   | 0%`100%i10%‚Ýj‚ÅÝ’è‰Â”\B                               |
+| **“à—e**     | ƒ^ƒXƒN‚ÌÚ×‚ð‹LÚB                                          |
+| **”õl**     | ‚»‚Ì‘¼‚Ìƒƒ‚B                                               |
+
+### Žg‚¢•û
+1. ŠJ”­ƒ^ƒu‚Ìuƒ}ƒNƒv‚©‚ç `CreateTaskManagementTable` ‚ðŽÀs‚µ‚Ü‚·B
+2. Ž©“®¶¬‚³‚ê‚½•\‚Éƒ^ƒXƒNî•ñ‚ð“ü—Í‚µ‚Ü‚·B
+3. •K—v‚É‰ž‚¶‚Äi’»—¦‚âƒXƒe[ƒ^ƒX‚ðXV‚µ‚Ä‚­‚¾‚³‚¢B
+
+### ’ˆÓ“_
+- •\ŠO‚ÌŒrü‚Í“K—p‚³‚ê‚Ü‚¹‚ñB
+- •K‚¸ƒ}ƒNƒ—LŒøƒuƒbƒNi*.xlsmjŒ`Ž®‚Å•Û‘¶‚µ‚Ä‚­‚¾‚³‚¢B
