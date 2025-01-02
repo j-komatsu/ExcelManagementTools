@@ -1,120 +1,35 @@
-# ExcelManagementTools
-
-## ŠT—v
-ExcelManagementTools‚ÍAExcelã‚ÅƒXƒPƒWƒ…[ƒ‹ŠÇ—‚âi’»Šm”F‚ª‚Å‚«‚éƒ}ƒNƒƒc[ƒ‹‚Å‚·Bƒ^ƒXƒN‚Ìisó‹µ‚âH”ŒvŽZ‚ðŽ©“®‰»‚µAŒø—¦“I‚ÈƒXƒPƒWƒ…[ƒ‹ŠÇ—‚ðƒTƒ|[ƒg‚µ‚Ü‚·B
-
----
-
-## ‰ŠúÝ’è
-### 1. ƒ}ƒNƒ—LŒø‰»
-1. Excelƒtƒ@ƒCƒ‹‚ð **`.xlsm` (ƒ}ƒNƒ—LŒøƒuƒbƒN)** ‚Æ‚µ‚Ä•Û‘¶‚µ‚Ä‚­‚¾‚³‚¢B
-2. Excel‚ÌuƒIƒvƒVƒ‡ƒ“v ¨ uƒZƒLƒ…ƒŠƒeƒBƒZƒ“ƒ^[v ¨ uƒ}ƒNƒ‚ÌÝ’èv‚©‚çƒ}ƒNƒ‚ð—LŒø‚É‚µ‚Ü‚·B
-
-### 2. VBAƒR[ƒh‚ÌƒRƒs[
-1. ŠJ”­ƒ^ƒu‚ÌuVisual Basicv‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-2. u•W€ƒ‚ƒWƒ…[ƒ‹v‚ð’Ç‰Á‚µA‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÉŠÜ‚Ü‚ê‚é `ExcelManagementTools` ‚ÌƒR[ƒh‚ðƒRƒs[•ƒy[ƒXƒg‚µ‚Ä‚­‚¾‚³‚¢B
-3. •Û‘¶‚µ‚ÄƒGƒfƒBƒ^‚ð•Â‚¶‚Ü‚·B
+# Excel ãƒžã‚¯ãƒ­ç®¡ç†ãƒªãƒã‚¸ãƒˆãƒªï¼ˆExcelManagementToolsï¼‰
+## æ¦‚è¦
+ã“ã®ãƒªãƒã‚¸ãƒˆãƒªã¯ã€Excelã§ä½¿ç”¨ã™ã‚‹è¤‡æ•°ã®ãƒžã‚¯ãƒ­ã‚’ä¸€å…ƒç®¡ç†ã™ã‚‹ãŸã‚ã®ã‚‚ã®ã§ã™ã€‚å„ãƒžã‚¯ãƒ­ã¯ã€ç‰¹å®šã®ã‚¿ã‚¹ã‚¯ã‚„ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«ç®¡ç†ã‚’åŠ¹çŽ‡åŒ–ã™ã‚‹ãŸã‚ã«è¨­è¨ˆã•ã‚Œã¦ã„ã¾ã™ã€‚
 
 ---
 
-## Žd—l
-- **‘ÎÛƒvƒ‰ƒbƒgƒtƒH[ƒ€**: Microsoft Excel („§ƒo[ƒWƒ‡ƒ“: 2016ˆÈ~)
-- **Žå—v‹@”\**:
-  - ƒ^ƒXƒNi’»ó‹µ‚ÌŽ©“®XV
-  - H”i•½“úEj“ú‚ðl—¶jŽ©“®ŒvŽZ
-  - ƒJƒŒƒ“ƒ_[Œ`Ž®‚Å‚Ìƒ^ƒXƒN•\Ž¦
-- **‘Î‰žŒ¾Œê**: “ú–{Œê
+## ãƒžã‚¯ãƒ­ä¸€è¦§
+
+| ãƒžã‚¯ãƒ­å               | ãƒ–ãƒƒã‚¯å           | æ¦‚è¦                                             | ä¸»ãªæ©Ÿèƒ½                           |
+|------------------------|--------------------|--------------------------------------------------|------------------------------------|
+| **ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«ç®¡ç†**   | ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«ç®¡ç†.xlsm | é€²æ—ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚’ä½œæˆã—ã€å·¥æ•°ã‚’è¨ˆç®—ã™ã‚‹ãƒžã‚¯ãƒ­       | - ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ä½œæˆ<br>- å·¥æ•°è¨ˆç®—      |
+| **ã‚¿ã‚¹ã‚¯ç®¡ç†**         | ã‚¿ã‚¹ã‚¯ç®¡ç†.xlsm     | ã‚¿ã‚¹ã‚¯æƒ…å ±ã‚’ãƒªã‚¹ãƒˆå½¢å¼ã§ç®¡ç†ã—ã€é€²æ—çŠ¶æ³ã‚’å¯è¦–åŒ–   | - ã‚¿ã‚¹ã‚¯è¡¨ä½œæˆ<br>- ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è¨­å®š |
 
 ---
 
-## Žg‚¢•û
-### 1. i’»ƒJƒŒƒ“ƒ_[‚Ìì¬
-1. ŠJ”­ƒ^ƒu‚Ìuƒ}ƒNƒvƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-2. `CreateCalendar` ‚ðŽÀs‚µ‚Ü‚·B
-3. Žw’è‚³‚ê‚½ƒ_ƒCƒAƒƒO‚É]‚¢AƒJƒŒƒ“ƒ_[‚ÌŠJŽn“ú‚ÆI—¹“ú‚ð“ü—Í‚µ‚Ü‚·B
+## å…±é€šæ³¨æ„ç‚¹ã¨è¨­å®šå†…å®¹
 
-### 2. ƒ^ƒXƒN‚Ì’Ç‰Á
-- `i’»ƒJƒŒƒ“ƒ_[`ƒV[ƒg‚Ì‹ós‚Éƒ^ƒXƒNî•ñ‚ð“ü—Í‚µ‚Ü‚·B
-  - •K{€–Ú: **ƒ^ƒXƒN–¼**A**—\’èŠJŽn“ú**A**—\’èI—¹“ú**
-  - ’S“–ŽÒ–¼‚âi’»ó‹µ‚Í”CˆÓ‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
+### **1. ãƒžã‚¯ãƒ­ã‚’æœ‰åŠ¹åŒ–ã™ã‚‹**
+- **ä¿å­˜å½¢å¼**: ãƒžã‚¯ãƒ­æœ‰åŠ¹ãƒ–ãƒƒã‚¯ï¼ˆ`*.xlsm`ï¼‰å½¢å¼ã§ä¿å­˜ã—ã¦ãã ã•ã„ã€‚
+- **ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£è¨­å®š**:  
+  1. Excelã®ã€Œé–‹ç™ºã€ã‚¿ãƒ–ã‚’æœ‰åŠ¹ã«ã—ã¾ã™ã€‚  
+  2. [ãƒ•ã‚¡ã‚¤ãƒ«] â†’ [ã‚ªãƒ—ã‚·ãƒ§ãƒ³] â†’ [ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã‚»ãƒ³ã‚¿ãƒ¼] â†’ ã€Œãƒžã‚¯ãƒ­è¨­å®šã€ã§é©åˆ‡ãªè¨­å®šã‚’é¸æŠžã—ã¾ã™ã€‚
 
-### 3. ÄÝ’èƒ{ƒ^ƒ“‚Ì’Ç‰Á
-‰ŠúÝ’èŒã‚ÉƒJƒŒƒ“ƒ_[‚Ì“ú•t”ÍˆÍ‚ð•ÏX‚µ‚½‚¢ê‡‚ÍAˆÈ‰º‚ÌŽè‡‚ÅuÄÝ’èƒ{ƒ^ƒ“v‚ð’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B
+### **2. å®Ÿè¡Œæ‰‹é †**
+- ãƒžã‚¯ãƒ­ã‚’å«ã‚€ãƒ–ãƒƒã‚¯ã‚’é–‹ãã€ã€Œé–‹ç™ºã€ã‚¿ãƒ– â†’ ã€Œãƒžã‚¯ãƒ­ã€ã‹ã‚‰è©²å½“ãƒžã‚¯ãƒ­ã‚’é¸æŠžã—ã¦å®Ÿè¡Œã—ã¾ã™ã€‚
+- ãƒœã‚¿ãƒ³ãŒè¨­å®šã•ã‚Œã¦ã„ã‚‹å ´åˆã¯ã€ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦å®Ÿè¡Œå¯èƒ½ã§ã™ã€‚
 
-1. **ƒ{ƒ^ƒ“‚Ì‘}“ü**:
-   1. ŠJ”­ƒ^ƒu‚Ìu‘}“üv¨uƒtƒH[ƒ€ƒRƒ“ƒgƒ[ƒ‹v‚©‚çuƒ{ƒ^ƒ“v‚ð‘I‘ðB
-   2. `i’»ƒJƒŒƒ“ƒ_[`ƒV[ƒgã‚Éƒ{ƒ^ƒ“‚ð”z’u‚µ‚Ü‚·B
-
-2. **ƒ}ƒNƒ‚ÌŠ„‚è“–‚Ä**:
-   1. ƒ{ƒ^ƒ“‚ð‰EƒNƒŠƒbƒN‚µuƒ}ƒNƒ‚Ì“o˜^v‚ð‘I‘ðB
-   2. ƒ}ƒNƒˆê——‚©‚ç `ResetTargetRangeByDate` ‚ð‘I‘ð‚µ‚ÄuOKv‚ðƒNƒŠƒbƒNB
-
-3. **ƒ{ƒ^ƒ“‚Ìƒ‰ƒxƒ‹‚ð•ÏX**:
-   - ƒ{ƒ^ƒ“‚ÌƒeƒLƒXƒg‚ðuÄÝ’èv‚É•ÏXB
-
-### 4. ƒJƒŒƒ“ƒ_[‚Ì“ú•t”ÍˆÍ‚ðÄÝ’è
-1. ÄÝ’èƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-2. ƒ_ƒCƒAƒƒO‚ª•\Ž¦‚³‚ê‚½‚çAƒJƒŒƒ“ƒ_[‚ÌV‚µ‚¢ŠJŽn“ú‚ÆI—¹“ú‚ð“ü—Í‚µ‚Ü‚·B
-3. ƒJƒŒƒ“ƒ_[‚Ì“ú•t”ÍˆÍ‚ªXV‚³‚êAi’»ó‹µ‚âH”‚ªŽ©“®‚ÅÄŒvŽZ‚³‚ê‚Ü‚·B
+### **3. å…±é€šã®åˆ¶ç´„äº‹é …**
+- **ãƒ•ã‚¡ã‚¤ãƒ«åã®é‡è¤‡**:  
+  åŒã˜åå‰ã®ã‚·ãƒ¼ãƒˆãŒå­˜åœ¨ã™ã‚‹å ´åˆã€å†…å®¹ãŒä¸Šæ›¸ãã•ã‚Œã¾ã™ã€‚  
+  å¿…è¦ã«å¿œã˜ã¦äº‹å‰ã«ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å–ã£ã¦ãã ã•ã„ã€‚
+- **ç’°å¢ƒä¾å­˜**:  
+  ãƒžã‚¯ãƒ­ã¯Windowsç‰ˆã®Excelã§æ­£å¸¸ã«å‹•ä½œã™ã‚‹ã‚ˆã†è¨­è¨ˆã•ã‚Œã¦ã„ã¾ã™ã€‚Macç‰ˆã§ã®å‹•ä½œä¿è¨¼ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
 
 ---
-
-## ’ˆÓ“_
-1. **“ú•t‚ÌƒtƒH[ƒ}ƒbƒg**:
-   - —\’èŠJŽn“úEI—¹“ú‚Í **YYYY/MM/DD** ƒtƒH[ƒ}ƒbƒg‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
-   - –³Œø‚È“ú•t‚ª“ü—Í‚³‚ê‚Ä‚¢‚éê‡Ai’»ó‹µ‚ª³‚µ‚­”½‰f‚³‚ê‚Ü‚¹‚ñB
-
-2. **j“ú‚ÌÝ’è**:
-   - j“ú‚Í `IsHoliday` ŠÖ”‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
-   - •K—v‚É‰ž‚¶‚ÄƒJƒXƒ^ƒ}ƒCƒY‚µ‚Ä‚­‚¾‚³‚¢B
-
-3. **Šù‘¶ƒf[ƒ^‚Ö‚Ì‰e‹¿**:
-   - ƒJƒŒƒ“ƒ_[ì¬‚âÄÝ’èŽžAŠù‘¶‚Ìƒf[ƒ^‚ªã‘‚«‚³‚ê‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
-   - d—v‚Èƒf[ƒ^‚Í•Ê“rƒoƒbƒNƒAƒbƒv‚ðŽæ‚Á‚Ä‚­‚¾‚³‚¢B
-
----
-
-## ƒJƒXƒ^ƒ}ƒCƒY
-‚±‚Ìƒc[ƒ‹‚ÍŽ©—R‚ÉƒJƒXƒ^ƒ}ƒCƒY‚µ‚Ä‚²—˜—p‚¢‚½‚¾‚¯‚Ü‚·BƒR[ƒh‚Ì•ÏX‚ª•K—v‚Èê‡‚ÍAˆÈ‰º‚Ì‰ÓŠ‚ðŽQl‚É‚µ‚Ä‚­‚¾‚³‚¢B
-
-- **j“ú‚Ì•ÏX**: `IsHoliday` ŠÖ”“à‚Ìj“úƒŠƒXƒg‚ðXVB
-- **ƒJƒŒƒ“ƒ_[‚ÌƒfƒUƒCƒ“**: `UpdateCalendarBackground` ŠÖ”“à‚ÌƒZƒ‹ƒXƒ^ƒCƒ‹‚ð•ÏXB
-
----
-
-## ƒ‰ƒCƒZƒ“ƒX
-‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÌƒR[ƒh‚ÍAMITƒ‰ƒCƒZƒ“ƒX‚Ì‚à‚Æ‚ÅŒöŠJ‚³‚ê‚Ä‚¢‚Ü‚·BŽ©—R‚ÉŽg—pE‰ü•Ï‚¢‚½‚¾‚¯‚Ü‚·B
-
----
-
-## ‚¨–â‚¢‡‚í‚¹
-•s–¾“_‚â•s‹ï‡‚ª‚²‚´‚¢‚Ü‚µ‚½‚çAGitHub‚ÌIssueƒZƒNƒVƒ‡ƒ“‚©‚ç‚¨–â‚¢‡‚í‚¹‚­‚¾‚³‚¢B
-
----
-
-## ƒ^ƒXƒNŠÇ—ƒ}ƒNƒ
-
-### ŠT—v
-ƒ^ƒXƒNŠÇ—ƒ}ƒNƒ‚ÍAExcel‚Åƒ^ƒXƒN‚ðŒø—¦“I‚ÉŠÇ—‚·‚é‚½‚ß‚Ìƒc[ƒ‹‚Å‚·Bƒ^ƒXƒNî•ñ‚ð•\Œ`Ž®‚Å®—‚µAi’»‚â—Dæ“x‚ðŠÈ’P‚É”cˆ¬‚Å‚«‚Ü‚·B
-
-### ‹@”\ˆê——
-| €–Ú       | Ú×                                                         |
-|------------|--------------------------------------------------------------|
-| **ƒ^ƒXƒNID** | Ž©“®˜A”Ô‚Åƒ^ƒXƒN‚ðˆêˆÓ‚ÉŽ¯•ÊB                                |
-| **ƒJƒeƒSƒŠ** | ƒ^ƒXƒN‚ÌƒJƒeƒSƒŠ‚ð•ª—ÞB                                      |
-| **—Dæ“x**   | “ü—Í‹K‘¥i’áA’†A‚AÅ‚j‚ÅÝ’è‰Â”\B                      |
-| **ƒXƒe[ƒ^ƒX**| –¢’…ŽèAŽdŠ|’†AŠm”F’†AŠ®—¹‚Ì’†‚©‚ç‘I‘ð‰Â”\B                |
-| **Šú“ú**     | ƒ^ƒXƒN‚Ì’÷Ø“ú‚ð“ü—ÍiYYYY/MM/DDŒ`Ž®jB                       |
-| **ŠJŽn“ú**   | ƒ^ƒXƒN‚ÌŠJŽn“ú‚ð“ü—ÍiYYYY/MM/DDŒ`Ž®jB                       |
-| **i’»—¦**   | 0%`100%i10%‚Ýj‚ÅÝ’è‰Â”\B                               |
-| **“à—e**     | ƒ^ƒXƒN‚ÌÚ×‚ð‹LÚB                                          |
-| **”õl**     | ‚»‚Ì‘¼‚Ìƒƒ‚B                                               |
-
-### Žg‚¢•û
-1. ŠJ”­ƒ^ƒu‚Ìuƒ}ƒNƒv‚©‚ç `CreateTaskManagementTable` ‚ðŽÀs‚µ‚Ü‚·B
-2. Ž©“®¶¬‚³‚ê‚½•\‚Éƒ^ƒXƒNî•ñ‚ð“ü—Í‚µ‚Ü‚·B
-3. •K—v‚É‰ž‚¶‚Äi’»—¦‚âƒXƒe[ƒ^ƒX‚ðXV‚µ‚Ä‚­‚¾‚³‚¢B
-
-### ’ˆÓ“_
-- •\ŠO‚ÌŒrü‚Í“K—p‚³‚ê‚Ü‚¹‚ñB
-- •K‚¸ƒ}ƒNƒ—LŒøƒuƒbƒNi*.xlsmjŒ`Ž®‚Å•Û‘¶‚µ‚Ä‚­‚¾‚³‚¢B
